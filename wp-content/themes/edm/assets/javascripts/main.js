@@ -66,38 +66,38 @@ var util = {
 
       navFixTop: function(){
 
-           var docElem = document.documentElement,
-                    header = document.querySelector('.navbar-top'),
-                    didScroll = false,
-                    changeHeaderOnBody = $('.section-banner').height();
+           // var docElem = document.documentElement,
+           //          header = document.querySelector('.navbar-top'),
+           //          didScroll = false,
+           //          changeHeaderOnBody = $('.section-banner').height();
 
 
-                function init() {
-                    window.addEventListener('scroll', function() {
-                        if (!didScroll) {
-                            didScroll = true;
-                            setTimeout(scrollPage, 100);
-                        }
-                    }, false);
-                }
+           //      function init() {
+           //          window.addEventListener('scroll', function() {
+           //              if (!didScroll) {
+           //                  didScroll = true;
+           //                  setTimeout(scrollPage, 100);
+           //              }
+           //          }, false);
+           //      }
 
-                function scrollPage() {
+           //      function scrollPage() {
 
-                    var sy = scrollY();
-                    if (sy >= changeHeaderOnBody) {
-                        classie.add(header, 'navbar-fixed-top');
-                    } else {
-                       classie.remove(header, 'navbar-fixed-top');
-                    }
+           //          var sy = scrollY();
+           //          if (sy >= changeHeaderOnBody) {
+           //              classie.add(header, 'navbar-fixed-top');
+           //          } else {
+           //             classie.remove(header, 'navbar-fixed-top');
+           //          }
 
-                    didScroll = false;
-                }
+           //          didScroll = false;
+           //      }
 
-                function scrollY() {
-                    return window.pageYOffset || docElem.scrollTop;
-                }
+           //      function scrollY() {
+           //          return window.pageYOffset || docElem.scrollTop;
+           //      }
                 
-                init();
+                
 
       }, 
       Slider: function(){

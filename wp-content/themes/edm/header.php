@@ -56,9 +56,11 @@
 			      <?php $branding = get_theme_options('branding', '');
 						    str_replace('', '', $branding); ?>
 						<?php if( $branding != '' ) { ?>
+					 	<?php }else{ 
+					 		$branding = get_template_directory_uri()."/images/logo.png";
+					 	 } ?>
 
-			      <img src="<?php echo $branding; ?>" alt="">
-					 <?php } ?>
+					 <img src="<?php echo $branding; ?>" alt="">
 			      </a>
 			    </div>
 			    <div class="navbar-collapse collapse ">

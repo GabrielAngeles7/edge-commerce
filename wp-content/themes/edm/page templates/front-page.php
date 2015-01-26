@@ -26,7 +26,7 @@ get_header(); ?>
               <div class="slide-desc mb-30">
                 <h1 class="title t-lg t-upper"><?php the_sub_field('banner_title'); ?></h1>
                  <?php the_sub_field('banner_content'); ?>
-                <a href="#" class="btn btn-default btn-rounded"><?php the_sub_field('banner_link_name'); ?></a>
+                <a href="<?php the_sub_field('link_to'); ?>" class="btn btn-default btn-rounded"><?php the_sub_field('banner_link_name'); ?></a>
                
               </div>
             <img src="<?php the_sub_field('banner_image'); ?>" class="slide-img"/>
