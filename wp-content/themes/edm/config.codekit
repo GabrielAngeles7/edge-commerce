@@ -333,12 +333,34 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/javascripts\/main.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/javascripts\/main.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/javascripts\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/javascripts\/plugins-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/javascripts\/plugins-min.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/plugins-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -368,7 +390,7 @@
 		},
 	"\/assets\/javascripts\/vendor\/classie.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/vendor\/classie.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/classie-min.js",
@@ -423,7 +445,7 @@
 		},
 	"\/assets\/javascripts\/vendor\/singlePageNav.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/vendor\/singlePageNav.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/singlePageNav-min.js",
@@ -1432,6 +1454,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/assets\/raw-assets\/_less\/theme\/commons.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/commons.less",
+		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/commons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/assets\/raw-assets\/_less\/theme\/copy.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1572,6 +1614,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/assets\/raw-assets\/_less\/theme\/list.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/list.less",
+		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/assets\/raw-assets\/_less\/theme\/media-queries.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1622,6 +1684,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/mixin.less",
 		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/mixin.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/assets\/raw-assets\/_less\/theme\/navbar.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/navbar.less",
+		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/navbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1722,6 +1804,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/search.less",
 		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/search.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/assets\/raw-assets\/_less\/theme\/section.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/section.less",
+		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/section.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1950,6 +2052,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/stylesheets\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/stylesheets\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/author-bio.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2058,6 +2169,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/genericons\/README.md",
 		"outputAbbreviatedPath": "\/genericons\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2456,6 +2576,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page templates\/documentation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page templates\/documentation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page templates\/front-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page templates\/front-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2533,7 +2671,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jrald B.",
+"lastSavedByUser": "Philweb Designer",
 "manualImportLinks": {
 	"\/assets\/javascripts\/plugins.js": [
 		{
@@ -2544,32 +2682,26 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/classie.js",
+			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/bootstrap.js",
 			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/singlePageNav.js",
+			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/parallax.js",
 			"position": 2,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/bootstrap.js",
+			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/jquery.flexslider.js",
 			"position": 3,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/parallax.js",
+			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/main.js",
 			"position": 4,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/jquery.flexslider.js",
-			"position": 5,
 			"type": 1
 			}
 		]

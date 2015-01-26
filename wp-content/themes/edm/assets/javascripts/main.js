@@ -4,11 +4,11 @@ var util = {
     Global: {
         init: function () {
 
-            // var winsize = $(window).outerHeight();
-            // var headh = $('.navbar-fixed-top').outerHeight();
+            var winsize = $(window).outerHeight();
+            var headh = $('.navbar-fixed-top').outerHeight();
             var conth = $('.t-content');
             var footh = $('.l-footer').outerHeight();
-            // var toth =  winsize - (headh);
+            var toth =  winsize - (headh);
 
 
         },
@@ -19,7 +19,6 @@ var util = {
         this.Menu();
         this.Slider();
         this.SmoothScroll();
-        this.navFixTop();
         this.Forms();
       },
 
@@ -48,58 +47,24 @@ var util = {
 
       SmoothScroll: function(){
 
-        $('.single-page-nav').singlePageNav({
-                offset: $('.single-page-nav:after').outerHeight()  + 40,
-                filter: ':not(.external)',
-                updateHash: true,
-                beforeStart: function() {
-                    // console.log('begin scrolling');
-                },
-                onComplete: function() {
-                    //console.log('done scrolling');
-                }
+        $('.navbar-default a[href*=#]:not([href=#])').click(function() {
 
-            });
+          var toph = $(".navbar-default").outerHeight();
 
-
-      }, 
-
-      navFixTop: function(){
-
-           // var docElem = document.documentElement,
-           //          header = document.querySelector('.navbar-top'),
-           //          didScroll = false,
-           //          changeHeaderOnBody = $('.section-banner').height();
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').stop().animate({
+              scrollTop: (target.offset().top) - toph
+            }, 800);
+            return false;
+          }
+        }
+      });
 
 
-           //      function init() {
-           //          window.addEventListener('scroll', function() {
-           //              if (!didScroll) {
-           //                  didScroll = true;
-           //                  setTimeout(scrollPage, 100);
-           //              }
-           //          }, false);
-           //      }
-
-           //      function scrollPage() {
-
-           //          var sy = scrollY();
-           //          if (sy >= changeHeaderOnBody) {
-           //              classie.add(header, 'navbar-fixed-top');
-           //          } else {
-           //             classie.remove(header, 'navbar-fixed-top');
-           //          }
-
-           //          didScroll = false;
-           //      }
-
-           //      function scrollY() {
-           //          return window.pageYOffset || docElem.scrollTop;
-           //      }
-                
-                
-
-      }, 
+      },
       Slider: function(){
 
         $('.slider-main').flexslider({
