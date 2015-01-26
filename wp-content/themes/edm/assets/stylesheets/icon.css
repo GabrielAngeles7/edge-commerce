@@ -1,0 +1,35 @@
+[class^="icons-"], [class*="icons-"] { display: inline-block; }
+
+.icons-sprite, .icons-catalogue, .icons-content, .icons-customer, .icons-home, .icons-news, .icons-orders, .icons-promotions, .icons-stock { background-image: url('../images/icons-sbfa74375fe.png'); background-repeat: no-repeat; }
+
+.icons-catalogue { background-position: 0 0; }
+
+.icons-content { background-position: 0 -60px; }
+
+.icons-customer { background-position: 0 -120px; }
+
+.icons-home { background-position: 0 -180px; }
+
+.icons-news { background-position: 0 -240px; }
+
+.icons-orders { background-position: 0 -300px; }
+
+.icons-promotions { background-position: 0 -360px; }
+
+.icons-stock { background-position: 0 -420px; }
+
+.icons-home { height: 60px; width: 60px; }
+
+.icons-catalogue { height: 60px; width: 60px; }
+
+.icons-stock { height: 60px; width: 60px; }
+
+.icons-customer { height: 60px; width: 60px; }
+
+.icons-orders { height: 60px; width: 60px; }
+
+.icons-content { height: 60px; width: 60px; }
+
+.icons-news { height: 60px; width: 60px; }
+
+.icons-promotions { height: 60px; width: 60px; }

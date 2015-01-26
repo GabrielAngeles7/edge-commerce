@@ -1,0 +1,45 @@
+// this file is compile with compass.
+
+@import "compass";
+
+[class^="icons-"],
+[class*="icons-"] {
+	display: inline-block;
+}
+
+$icon-layout:smart;
+@import "icons/*.png";
+@include all-icons-sprites;
+$icons: sprite-map("icons/*.png", $spacing: 10px);
+
+.icons-home{
+  @include sprite-dimensions($icons, home);
+}
+
+.icons-catalogue{
+  @include sprite-dimensions($icons, catalogue);
+}
+
+.icons-stock{
+  @include sprite-dimensions($icons, stock);
+}
+
+.icons-customer{
+  @include sprite-dimensions($icons, customer);
+}
+
+.icons-orders{
+  @include sprite-dimensions($icons, orders);
+}
+
+.icons-content{
+  @include sprite-dimensions($icons, content);
+}
+
+.icons-news{
+  @include sprite-dimensions($icons, news);
+}
+
+.icons-promotions{
+  @include sprite-dimensions($icons, promotions);
+}

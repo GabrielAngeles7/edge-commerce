@@ -1,0 +1,131 @@
+.navbar-fixed-top{
+	-webkit-backface-visibility: hidden;
+}
+.navbar-brand{
+	padding: 0px 0px;
+	height: auto;
+	margin-left: 0px!important;
+
+}
+.navbar-header{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+.navbar-toggle{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	.transition(all linear);
+	height: 50px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	.border-radius(0 0 0 0);
+	background: @base_color;
+	border:  @base_color-d 1px solid;
+	z-index: 99999;
+
+	.icon-bar{
+		.transform-origin(50% 50%);
+		position: relative;
+		.transition(ease .3s all);
+		background: #f4f4f4!important;
+
+	}
+	&:hover, &:focus{
+		background-color: @base_color!important;
+
+		.icon-bar{
+			background-color: #fff!important;
+		}
+	}
+
+	&.active{
+		border-left: none!important;
+		.icon-bar{
+			&:nth-child(2){
+				-webkit-transform: rotate3d(0,0,1,-45deg);
+				-moz-transform: rotate3d(0,0,1,-45deg);
+				-o-transform: rotate3d(0,0,1,-45deg);
+				transform: rotate3d(0,0,1,-45deg);
+				top: 3px;
+				
+			}
+			&:nth-child(4){
+				-webkit-transform: rotate3d(0,0,1,45deg);
+				-moz-transform: rotate3d(0,0,1,45deg);
+				-o-transform: rotate3d(0,0,1,45deg);
+				transform: rotate3d(0,0,1,45deg);
+				top: -3px;
+			}
+			&:nth-child(3){
+				display: none;
+			}
+		}
+	}
+}
+.navbar-default{
+	background: @base_color-d;
+	padding: 20px 0px;
+	font-size: 15px;
+	border: none;
+
+
+	.navbar-nav{
+		margin-right: 0px!important;
+		li{
+				margin-left: 10px;
+			a{
+				padding: 10px;
+				letter-spacing: 1px;
+				color: #fff;
+				font-family: 'proxima-bold';
+
+				&:hover{
+					color: rgba(255,255,255,0.7);
+				}
+
+
+			}
+			.icon-pagi{
+				display: none;
+			}
+		}
+
+		> .active{
+			> a{
+				color:#fff;
+				background-color: transparent;
+
+				&:hover, &:focus{
+					color:#fff;
+					background-color: transparent;
+				}
+			}
+		}
+	
+	}
+	.tel{
+		font-weight: 600;
+		.fa{
+			color: @base_color;
+		}
+	}
+}
+
+
+@media(max-width: 768px){
+
+	.navbar-default{
+		.icon-tel{
+			display: none;
+		}
+	}
+	.navbar-nav{
+		.icon-pagi{
+			display: block;
+		}
+	}
+
+
+}
