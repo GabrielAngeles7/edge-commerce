@@ -352,7 +352,10 @@ blockquote p {
   color: #000000;
 }
 .offset-top {
-  margin-top: 6em!important;
+  margin-top: 9em!important;
+}
+.offset-top-one {
+  margin-top: 7em!important;
 }
 .m-auto {
   float: none!important;
@@ -1205,7 +1208,7 @@ html[xmlns] .flexslider .slides {
 .icon-instagram:before {
   content: "\e621";
 }
-.navbar-top {
+.navbar-default {
   margin-bottom: 0;
 }
 .navbar-fixed-top {
@@ -1291,48 +1294,55 @@ html[xmlns] .flexslider .slides {
 .navbar-toggle.active .icon-bar:nth-child(3) {
   display: none;
 }
-.navbar-top {
+.navbar-default {
   background: #0070ac;
   padding: 20px 0px;
   font-size: 15px;
   border: none;
+  -webkit-transition: .2s linear all;
+  -moz-transition: .2s linear all;
+  -ms-transition: .2s linear all;
+  -o-transition: .2s linear all;
+  transition: .2s linear all;
 }
-.navbar-top .navbar-nav {
+.navbar-default .navbar-nav {
   margin-right: 0px!important;
 }
-.navbar-top .navbar-nav li {
+.navbar-default .navbar-nav > li {
   margin-left: 10px;
 }
-.navbar-top .navbar-nav li a {
+.navbar-default .navbar-nav > li > a {
   padding: 10px;
   letter-spacing: 1px;
   color: #fff;
   font-family: 'proxima-bold';
 }
-.navbar-top .navbar-nav li a:hover {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  outline: 0;
   color: rgba(255, 255, 255, 0.7);
   background: transparent;
 }
-.navbar-top .navbar-nav li .icon-pagi {
+.navbar-default .navbar-nav > li .icon-pagi {
   display: none;
 }
-.navbar-top .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a {
   color: #fff;
   background-color: transparent;
 }
-.navbar-top .navbar-nav > .active > a:hover,
-.navbar-top .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: transparent;
 }
-.navbar-top .tel {
+.navbar-default .tel {
   font-weight: 600;
 }
-.navbar-top .tel .fa {
+.navbar-default .tel .fa {
   color: #008bd6;
 }
 @media (max-width: 768px) {
-  .navbar-top .icon-tel {
+  .navbar-default .icon-tel {
     display: none;
   }
   .navbar-nav .icon-pagi {
@@ -1422,8 +1432,6 @@ html[xmlns] .flexslider .slides {
   height: 240px;
 }
 .section-banner {
-  overflow: hidden;
-  height: 640px;
   position: relative;
   background: url("../images/banner-bg.png") #008bd6 no-repeat top center;
   background-size: cover;
@@ -1651,9 +1659,15 @@ html[xmlns] .flexslider .slides {
 .list-bulleted > li {
   font-size: 14px;
 }
+.list-bulleted > li > a {
+  display: block;
+}
 .list-circle {
   list-style-type: circle;
   padding-left: 25px;
+}
+.list-circle > li > a {
+  display: block;
 }
 @media (max-width: 850px) {
   .tabpanel-aside .sidebar {

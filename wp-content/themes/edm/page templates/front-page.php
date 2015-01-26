@@ -13,7 +13,7 @@ get_header(); ?>
 <div class="section section-banner module" id="home">
   <div class="container">
 
-    <div class="flexslider slider-main text-center">
+    <div class="flexslider slider-main text-center offset-top">
           <ul class="slides">
 
           <?php
@@ -86,7 +86,7 @@ get_header(); ?>
                 </a>
               </li>
 
-<?php   $cntr++; endwhile; ?>
+            <?php   $cntr++; endwhile; ?>
           </ul>
         </div>
 

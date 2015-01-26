@@ -333,34 +333,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/javascripts\/main.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/main.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/assets\/javascripts\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/javascripts\/plugins-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/plugins-min.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/plugins-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -416,28 +394,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/vendor\/jquery.flexslider.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/jquery.flexslider-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/javascripts\/vendor\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/vendor\/main.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/javascripts\/vendor\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/vendor\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1476,26 +1432,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/assets\/raw-assets\/_less\/theme\/commons.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/commons.less",
-		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/commons.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/assets\/raw-assets\/_less\/theme\/copy.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1636,26 +1572,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/assets\/raw-assets\/_less\/theme\/list.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/list.less",
-		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/list.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/assets\/raw-assets\/_less\/theme\/media-queries.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1706,26 +1622,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/mixin.less",
 		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/mixin.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/assets\/raw-assets\/_less\/theme\/navbar.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/navbar.less",
-		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/navbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1826,26 +1722,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/search.less",
 		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/search.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/assets\/raw-assets\/_less\/theme\/section.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/raw-assets\/_less\/theme\/section.less",
-		"outputAbbreviatedPath": "\/assets\/raw-assets\/_less\/css\/section.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2074,15 +1950,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/stylesheets\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/stylesheets\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/author-bio.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2194,15 +2061,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/image.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2211,6 +2069,160 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3978,
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/birken.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11473,
+		"inputAbbreviatedPath": "\/images\/placeholders\/birken.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/birken.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9659,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client1.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8873,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client2.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9259,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client3.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6544,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client4.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12328,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client5.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/client6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15137,
+		"inputAbbreviatedPath": "\/images\/placeholders\/client6.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/client6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/darn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12150,
+		"inputAbbreviatedPath": "\/images\/placeholders\/darn.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/darn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/evans.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4153,
+		"inputAbbreviatedPath": "\/images\/placeholders\/evans.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/evans.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/greene.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6704,
+		"inputAbbreviatedPath": "\/images\/placeholders\/greene.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/greene.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/poly.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5491,
+		"inputAbbreviatedPath": "\/images\/placeholders\/poly.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/poly.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/prod.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14804,
+		"inputAbbreviatedPath": "\/images\/placeholders\/prod.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/prod.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholders\/wagner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5804,
+		"inputAbbreviatedPath": "\/images\/placeholders\/wagner.png",
+		"outputAbbreviatedPath": "\/images\/placeholders\/wagner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/inc\/back-compat.php": {
 		"fileType": 8192,
@@ -2444,24 +2456,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/page templates\/documentation.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page templates\/documentation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/page templates\/front-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page templates\/front-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2539,7 +2533,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Philweb Designer",
+"lastSavedByUser": "Jrald B.",
 "manualImportLinks": {
 	"\/assets\/javascripts\/plugins.js": [
 		{
@@ -2576,12 +2570,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/vendor\/jquery.flexslider.js",
 			"position": 5,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/javascripts\/main.js",
-			"position": 6,
 			"type": 1
 			}
 		]

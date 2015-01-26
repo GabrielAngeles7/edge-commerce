@@ -10,7 +10,7 @@
 get_header(); ?>
   
 
-<div class="section section-banner-sm" id="home">
+<div class="section section-banner-sm">
   <div class="container">
     <div class="offset-top">
      <?php while ( have_posts() ) : the_post();?>
@@ -21,7 +21,7 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="section section-l1 skin-white text-center copy separator" id="about">
+<div class="section section-l1 skin-white text-center copy separator">
   <div class="container">
 
     <div class="row">
@@ -35,7 +35,7 @@ get_header(); ?>
             <?php the_field('site_intro_content') ;?>
               
             </div>
- <?php endwhile;?>
+             <?php endwhile;?>
             <div class="row">
               
               <div class="col-sm-6">
