@@ -1,4 +1,4 @@
-.navbar-top {
+.navbar-default {
 	margin-bottom: 0;
 }
 
@@ -73,24 +73,30 @@
 		}
 	}
 }
-.navbar-top{
+.navbar-default{
 	background: @base_color-d;
 	padding: 20px 0px;
 	font-size: 15px;
 	border: none;
+	-webkit-transition: .2s linear all;
+	-moz-transition: .2s linear all;
+	-ms-transition: .2s linear all;
+	-o-transition: .2s linear all;
+	transition: .2s linear all;
 
 
 	.navbar-nav{
 		margin-right: 0px!important;
-		li{
+		> li{
 				margin-left: 10px;
-			a{
+			> a{
 				padding: 10px;
 				letter-spacing: 1px;
 				color: #fff;
 				font-family: 'proxima-bold';
 
-				&:hover{
+				&:hover, &:focus{
+					outline:0;
 					color: rgba(255,255,255,0.7);
 					background: transparent;
 				}
@@ -126,7 +132,7 @@
 
 @media(max-width: 768px){
 
-	.navbar-top{
+	.navbar-default{
 		.icon-tel{
 			display: none;
 		}
