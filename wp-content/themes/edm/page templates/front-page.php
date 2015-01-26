@@ -10,10 +10,10 @@
 get_header(); ?>
   
 
-<div class="section section-banner module parallax" id="home">
+<div class="section section-banner module" id="home">
   <div class="container">
 
-    <div class="flexslider slider-main text-center offset-top">
+    <div class="flexslider slider-main text-center">
           <ul class="slides">
 
           <?php

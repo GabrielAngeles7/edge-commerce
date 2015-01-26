@@ -1,5 +1,14 @@
+.navbar-top {
+	margin-bottom: 0;
+}
+
 .navbar-fixed-top{
 	-webkit-backface-visibility: hidden;
+	-webkit-transition: .2s linear all;
+	-moz-transition: .2s linear all;
+	-ms-transition: .2s linear all;
+	-o-transition: .2s linear all;
+	transition: .2s linear all;
 }
 .navbar-brand{
 	padding: 0px 0px;
@@ -64,7 +73,7 @@
 		}
 	}
 }
-.navbar-default{
+.navbar-top{
 	background: @base_color-d;
 	padding: 20px 0px;
 	font-size: 15px;
@@ -83,6 +92,7 @@
 
 				&:hover{
 					color: rgba(255,255,255,0.7);
+					background: transparent;
 				}
 
 
@@ -116,7 +126,7 @@
 
 @media(max-width: 768px){
 
-	.navbar-default{
+	.navbar-top{
 		.icon-tel{
 			display: none;
 		}

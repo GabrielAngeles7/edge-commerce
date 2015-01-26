@@ -26,7 +26,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<div class="section-canvas">
+<div class="section-canvas" id="top">
 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
 	    <span class="sr-only">Toggle navigation</span>
 	    <span class="icon-bar"></span>
@@ -48,7 +48,7 @@
 	</div>
 	<div class="l-wrapper">
 		<div class="l-header">
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navbar navbar-static-top navbar-top single-page-nav" role="navigation">
 			  <div class="container">
 			    <div class="navbar-header">
 			      <a class="navbar-brand" href="/#top">
